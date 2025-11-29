@@ -18,7 +18,7 @@ const rendertxt = (txt, className, baseWeight = 400) => {
 
 
 const setupHoverText = (container, type)=>{
-    if(!container) return () => {};
+    if(!container) return;
 
     const letters = container.querySelectorAll("span")
     const {min, max, default: base} = Font_Weight[type];
