@@ -14,6 +14,11 @@ body {
   background-position: center;
 }
 
+/* Toggle dark wallpaper when the mode icon is clicked */
+body.dark-wallpaper {
+  background-image: url("/images/darkwallpaper.jpg");
+}
+
 @theme {
   --font-georama: "Georama", sans-serif;
   --font-roboto: "Roboto Mono", monospace;
