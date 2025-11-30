@@ -101,28 +101,33 @@ const blogPosts = [
 
 const techStack = [
   {
-    category: "Frontend",
-    items: ["React.js", "Next.js", "TypeScript"],
+    category: "Language",
+    items: ["C++", "Java", "Python", "JavaScript"],
+  },
+
+  {
+    category: "Frontend & FrameWorks",
+    items: ["React.js", "Next.js", "Angular", "Django"],
   },
   {
     category: "Mobile",
-    items: ["React Native", "Expo"],
+    items: ["Android", "Kotlin", "Material UI"],
   },
   {
     category: "Styling",
-    items: ["Tailwind CSS", "Sass", "CSS"],
+    items: ["Tailwind CSS", "CSS"],
   },
   {
     category: "Backend",
-    items: ["Node.js", "Express", "NestJS", "Hono"],
+    items: ["Node.js", "Express.js", "JavaScript", "TypeScript"],
   },
   {
     category: "Database",
-    items: ["MongoDB", "PostgreSQL"],
+    items: ["MongoDB", "MYSQL"],
   },
   {
     category: "Dev Tools",
-    items: ["Git", "GitHub", "Docker"],
+    items: ["Git", "GitHub", "Docker", "Postman"],
   },
 ];
 
@@ -132,28 +137,28 @@ const socials = [
     text: "Github",
     icon: "/icons/github.svg",
     bg: "#f4656b",
-    link: "https://github.com/JavaScript-Mastery-Pro",
+    link: "https://github.com/MicrosoftRajan",
   },
   {
     id: 2,
     text: "Platform",
     icon: "/icons/atom.svg",
     bg: "#4bcb63",
-    link: "https://jsmastery.com/",
+    link: "https://bit.ly/4lPUIVE",
   },
   {
     id: 3,
-    text: "Twitter/X",
-    icon: "/icons/twitter.svg",
+    text: "CodeFroces",
+    icon: "/icons/codefroces.png",
     bg: "#ff866b",
-    link: "https://x.com/jsmasterypro",
+    link: "https://codeforces.com/profile/RajanWarriror",
   },
   {
     id: 4,
     text: "LinkedIn",
     icon: "/icons/linkedin.svg",
     bg: "#05b6f6",
-    link: "https://www.linkedin.com/company/javascriptmastery/posts/?feedView=all",
+    link: "https://www.linkedin.com/in/rajan-yadavv/",
   },
 ];
 
@@ -225,7 +230,7 @@ const WORK_LOCATION = {
     // ▶ Project 1
     {
       id: 5,
-      name: "Nike Ecommerce Website Application",
+      name: "Aviora - AI Platform",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-5", // icon position inside Finder
@@ -239,29 +244,29 @@ const WORK_LOCATION = {
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "The Nike eCommerce website is a sleek and modern platform designed for shopping the latest Nike collections.",
-            "Instead of a simple online store, it delivers an immersive experience with bold visuals, interactive product displays, and smooth navigation.",
-            "Think of it like walking into a flagship Nike store—but right from your phone or laptop.",
-            "It's built with Next.js and Tailwind, ensuring fast performance, responsive design, and a clean, premium look.",
+            "Delivered an AI conversational assistant with a minimal, responsive UI, integrated Clerk for authentication and payment flows for secure, scalable access control.",
+            "Implemented real-time voice interaction via WebSockets, supporting 500+ active users and cutting average response time by 25%",
+            "Hardened frontend accessibility and performance with Next.js best practices and Tailwind CSS, increasing session engagement by 15%.",
+            "Tech Stack : Next.js, TypeScript, Supabase, Sanity, VAPI AI, Clerk ",
           ],
         },
         {
           id: 2,
-          name: "nike.com",
+          name: "aviorLink.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/fZdTYswuZjU?si=Awjl-pIst9e09_UU",
+          href: "https://aviora-dl1q.vercel.app/",
           position: "top-10 right-20",
         },
         {
           id: 4,
-          name: "nike.png",
+          name: "aviora_landing.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-1.png",
+          imageUrl: "/images/Aviora.png",
         },
         {
           id: 5,
@@ -278,7 +283,7 @@ const WORK_LOCATION = {
     // ▶ Project 2
     {
       id: 6,
-      name: "AI Resume Analyzer",
+      name: "HaloTalk - Social learning platform",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-52 right-80",
@@ -286,35 +291,35 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "AI Resume Analyzer Project.txt",
+          name: " HaloTalk_Desc.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 right-10",
           description: [
-            "AI Resume Analyzer is a smart tool that helps you perfect your resume with instant feedback.",
-            "Instead of guessing what recruiters want, you get AI-powered insights on keywords, formatting, and overall impact.",
-            "Think of it like having a career coach—pointing out strengths, fixing weaknesses, and boosting your chances of landing interviews.",
-            "It's built with Next.js and Tailwind, so it runs fast, looks professional, and works seamlessly on any device.",
+            "Architected a social learning platform connecting learners and mentors for language practice, mock interviews, and Q&A.",
+            "Implemented a matching algorithm that pairs users by shared interests (e.g., two learners of C++), improving session relevance and user satisfaction.",
+            "Deployed a scalable backend supporting 100+ concurrent sessions and serving 1,000+ users; lifted 30-day retention by 20%",
+            "Tech Stack : React.js, Node.js, Express.js, MongoDB, Tailwind CSS ",
           ],
         },
         {
           id: 2,
-          name: "ai-resume-analyzer.com",
+          name: "HaloTalk_Git_Link.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
-          href: "https://youtu.be/iYOz165wGkQ?si=R1hs8Legl200m0Cl",
+          href: "https://github.com/MicrosoftRajan/HaloTalk",
           position: "top-20 left-20",
         },
         {
           id: 4,
-          name: "ai-resume-analyzer.png",
+          name: "HaloTalk.png",
           icon: "/images/image.png",
           kind: "file",
           fileType: "img",
           position: "top-52 left-80",
-          imageUrl: "/images/project-2.png",
+          imageUrl: "/images/HaloTalk.png",
         },
         {
           id: 5,
@@ -331,7 +336,7 @@ const WORK_LOCATION = {
     // ▶ Project 3
     {
       id: 7,
-      name: "Food Delivery App",
+      name: "Samsung Re-Vision ",
       icon: "/images/folder.png",
       kind: "folder",
       position: "top-10 left-80",
@@ -339,21 +344,21 @@ const WORK_LOCATION = {
       children: [
         {
           id: 1,
-          name: "Food Delivery App Project.txt",
+          name: "Samsung Re-Vision_Desc.txt",
           icon: "/images/txt.png",
           kind: "file",
           fileType: "txt",
           position: "top-5 left-10",
           description: [
-            "Our Food Delivery App is a fast and convenient way to order meals from your favorite restaurants.",
-            "Instead of making calls or waiting in line, you can browse menus, customize orders, and track deliveries in real time.",
-            "Think of it like having your favorite restaurants in your pocket—ready to deliver anytime, anywhere.",
-            "It’s built with React Native, so it works smoothly on both iOS and Android with a clean, modern design.",
+            "Enhanced interactive web application showcasing 50+ Samsung product launches, improving user engagement and event revisit rates",
+            "Implemented smooth UI animations with GSAP, enhancing overall visual appeal and increasing average session duration by 25%",
+            "Streamlined product information display across categories, enabling users to access details 3x faster compared to previous platform.",
+            "Tech Stac : React.js, GSAP Animation Library, JavaScript",
           ],
         },
         {
           id: 2,
-          name: "food-delivery-app.com",
+          name: "Samsung Re-Vision_Live_Link.com",
           icon: "/images/safari.png",
           kind: "file",
           fileType: "url",
@@ -367,7 +372,7 @@ const WORK_LOCATION = {
           kind: "file",
           fileType: "img",
           position: "top-52 right-80",
-          imageUrl: "/images/project-3.png",
+          imageUrl: "/images/Samsung.png",
         },
         {
           id: 5,
